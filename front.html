@@ -58,8 +58,8 @@
 
       <div class="accordion" id="academicProjectsAccordion">
 
+        <!-- Academic Projects Title -->
         <div class="accordion" id="allProjectsAccordion">
-          <!-- Academic Projects Title -->
           <h3 class="mb-3">Academic Projects</h3>
           <!-- 1st Year -->
           <div class="accordion-item">
@@ -68,10 +68,30 @@
                 1st Year
               </button>
             </h2>
+
             <div id="year1" class="accordion-collapse collapse" data-bs-parent="#allProjectsAccordion">
               <div class="accordion-body">
                 <div class="row g-4">
                   <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'Project 1',
+                      'An academic project focused on object-oriented programming and clean architecture.',
+                      'https://github.com/damienBC/project1',
+                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
+                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
+                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">Project 1</h5>
+                            <p class="card-text mb-0">OOP fundamentals</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                        </div>
+                      </div>
+                    </div>
                     <div class="card h-100 clickable" onclick="openProjectModal(
                       'Project 1',
                       'An academic project focused on object-oriented programming and clean architecture.',
@@ -117,6 +137,7 @@
               </div>
             </div>
           </div>
+
           <!-- 2nd Year -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -152,6 +173,7 @@
               </div>
             </div>
           </div>
+
           <!-- 3rd Year -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -187,6 +209,7 @@
               </div>
             </div>
           </div>
+
           <!-- 4th Year -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -222,6 +245,7 @@
               </div>
             </div>
           </div>
+
           <!-- 5th Year -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -260,7 +284,7 @@
 
           <hr>
 
-          
+
           <!-- External Projects Title -->
           <h3 class="mb-3">External projects</h3>
           <!-- Game Jams -->
@@ -270,34 +294,135 @@
                 Game Jams
               </button>
             </h2>
+
             <div id="GameJams" class="accordion-collapse collapse" data-bs-parent="#allProjectsAccordion">
               <div class="accordion-body">
                 <div class="row g-4">
+
+                  <!-- AstroSurvivor -->
                   <div class="col-md-4">
                     <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                      'AstroSurvivor',
+                      'Gamejam projec Ue5. Theme: Power-up | Restriction: Overpowered',
+                      'https://koukidemami.itch.io/astro',
+                      './Images/AstroSurvivor/1.png',
+                      './Images/AstroSurvivor/2.png',
+                      './Images/AstroSurvivor/3.png'
                     )">
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
-                            <p class="card-text mb-0">OOP fundamentals</p>
+                            <h5 class="card-title mb-2">AstroSurvivor</h5>
+                            <p class="card-text mb-0">Gamejam project in Ue5. Theme: Power-up | Restriction: Overpowered</p>
                           </div>
                           <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                            src="./Images/AstroSurvivor/1.png" alt="Project 1 Image">
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <!-- Santa Survivor -->
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'Santa Survivor',
+                      'Gamejam project Ue5. Theme: Power-up | Restriction: Overpowered',
+                      'https://shaladur.itch.io/santasurvivor',
+                      './Images/SantaSurvivor/1.png',
+                      './Images/SantaSurvivor/2.png',
+                      './Images/SantaSurvivor/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">Santa Survivor</h5>
+                            <p class="card-text mb-0">Gamejam project in Ue5. Theme: Survival | Restriction: Snowball</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/SantaSurvivor/1.png" alt="Project 1 Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!-- CanarPech-O -->
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'CanarPech-O',
+                      'Gamejam project Ue5. Theme: Fishing | Restriction: 2d',
+                      'https://github.com/damienBC/CanarPech-O',
+                      './Images/CanarPech-O/1.png',
+                      './Images/CanarPech-O/2.png',
+                      './Images/CanarPech-O/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">CanarPech-O</h5>
+                            <p class="card-text mb-0">Gamejam project in Ue5. Theme: Fishing | Restriction: 2d</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/CanarPech-O/1.png" alt="Project 1 Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                                    <!-- UnderFive -->
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'UnderFive',
+                      'Gamejam project Ue5. Theme: Time is a resource | Restriction: 5 minutes',
+                      'https://github.com/Hinivir/EpitechJam',
+                      './Images/UnderFive/1.png',
+                      './Images/UnderFive/2.png',
+                      './Images/UnderFive/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">UnderFive</h5>
+                            <p class="card-text mb-0">Gamejam project in Ue5. Theme: Time is a resource | Restriction: 5 minutes</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/UnderFive/1.png" alt="Project 1 Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                                    <!-- Toyplay -->
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'ToyPlay',
+                      'Gamejam project Ue5. Theme: Toy | Restriction: Multiple gameplay',
+                      'https://github.com/Hinivir/EpitechJam',
+                      './Images/ToyPlay/1.png',
+                      './Images/ToyPlay/2.png',
+                      './Images/ToyPlay/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">ToyPlay</h5>
+                            <p class="card-text mb-0">Gamejam project in Ue5. Theme: Toy | Restriction: Multiple gameplay</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/ToyPlay/1.png" alt="Project 1 Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
             </div>
           </div>
+
+
+
           <!-- Personal Projects -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -343,13 +468,75 @@
     <section id="contact">
       <h2>Contact Me</h2>
       <ul class="list-unstyled">
-        <li>📧 <a href="mailto:damien.benais-captal@epitech.eu">damien.benais-captal@epitech.eu</a></li>
+        <li>📧 <a href="mailto:damienbenaiscaptal@gmail.com">damienbenaiscaptal@gmail.com</a></li>
         <li>🔗 <a href="https://www.linkedin.com/in/damienbenaiscaptal" target="_blank">LinkedIn</a></li>
         <li>📞 +33 7 81 94 43 91</li>
       </ul>
     </section>
 
   </main>
+
+
+
+
+
+
+
+
+  <!-- Project Modal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <h5 class="modal-title" id="projectModalTitle">Project Title</h5>
+            <p class="mb-0 text-muted" id="projectModalDescription">Project description goes here.</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="projectCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="img1" src="" class="d-block w-100" alt="Project image 1">
+              </div>
+              <div class="carousel-item">
+                <img id="img2" src="" class="d-block w-100" alt="Project image 2">
+              </div>
+              <div class="carousel-item">
+                <img id="img3" src="" class="d-block w-100" alt="Project image 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+            <div>
+              <strong>Project link:</strong>
+              <a id="projectModalLink" href="#" target="_blank" rel="noopener noreferrer">Project Link</a>
+            </div>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
 
   <!-- FOOTER -->
   <footer class="bg-dark text-white text-center py-3 mt-auto">
@@ -363,6 +550,7 @@
       document.getElementById("projectModalTitle").textContent = title;
       document.getElementById("projectModalDescription").textContent = description;
       document.getElementById("projectModalLink").href = url;
+      document.getElementById("projectModalLink").textContent = "Project Link";
 
       document.getElementById("img1").src = img1;
       document.getElementById("img2").src = img2;
@@ -403,7 +591,7 @@
       background: #000;
     }
 
-    .accordion-body{
+    .accordion-body {
       background-color: rgb(245, 245, 255);
     }
   </style>
