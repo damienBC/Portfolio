@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100 bg-light">
+<body class="d-flex flex-column min-vh-100" style="background-color: #130026;">
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -23,9 +23,9 @@
           <h1 class="mb-0">Damien BENAIS-CAPTAL</h1>
           <h2 class="h4">Portfolio</h2>
           <nav class="mt-3">
-            <a class="btn btn-light mx-1" href="#about">About</a>
-            <a class="btn btn-light mx-1" href="#projects">Projects</a>
-            <a class="btn btn-light mx-1" href="#contact">Contact</a>
+            <a class="btn btn-light mx-1" style="text-decoration: underline; color: rgb(0, 81, 255);" href="#about">About</a>
+            <a class="btn btn-light mx-1" style="text-decoration: underline; color: rgb(0, 81, 255);" href="#projects">Projects</a>
+            <a class="btn btn-light mx-1" style="text-decoration: underline; color: rgb(0, 81, 255);" href="#contact">Contact</a>
           </nav>
         </div>
         <div class="col-md-4 text-md-end text-center">
@@ -43,7 +43,7 @@
     <!-- ABOUT -->
     <section id="about" class="mb-5">
       <h2>About Me</h2>
-      <p>
+      <p style="font-size: 1.1rem; color: #0041da;">
         Curious and ambitious, I am passionate about technology and programming.
         I enjoy learning new technologies and building projects.
         My main interests are video games, web development, and Object-Oriented Programming.
@@ -61,6 +61,7 @@
         <!-- Academic Projects Title -->
         <div class="accordion" id="allProjectsAccordion">
           <h3 class="mb-3">Academic Projects</h3>
+
           <!-- 1st Year -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -68,67 +69,26 @@
                 1st Year
               </button>
             </h2>
-
             <div id="year1" class="accordion-collapse collapse" data-bs-parent="#allProjectsAccordion">
               <div class="accordion-body">
                 <div class="row g-4">
                   <div class="col-md-4">
                     <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
+                      'My rpg',
                       'An academic project focused on object-oriented programming and clean architecture.',
                       'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                      './Images/rpg/1.png',
+                      './Images/rpg/2.png',
+                      './Images/rpg/3.png'
                     )">
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
+                            <h5 class="card-title mb-2">My rpg</h5>
                             <p class="card-text mb-0">OOP fundamentals</p>
                           </div>
                           <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
-                    )">
-                      <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                          <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
-                            <p class="card-text mb-0">OOP fundamentals</p>
-                          </div>
-                          <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
-                    )">
-                      <div class="card-body">
-                        <div class="d-flex align-items-center justify-content-between">
-                          <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
-                            <p class="card-text mb-0">OOP fundamentals</p>
-                          </div>
-                          <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                            src="./Images/rpg/1.png" alt="My rpg Image">
                         </div>
                       </div>
                     </div>
@@ -148,27 +108,73 @@
             <div id="year2" class="accordion-collapse collapse" data-bs-parent="#allProjectsAccordion">
               <div class="accordion-body">
                 <div class="row g-4">
+
                   <div class="col-md-4">
                     <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                      'Arcade',
+                      'An academic project focused on object-oriented programming and clean architecture. The goal was to switch between graphic libraries.',
+                      'https://github.com/EpitechPromo2026/B-OOP-400-PAR-4-1-arcade-damien.benais-captal',
+                      './Images/arcade/1.png',
+                      './Images/arcade/2.png',
+                      './Images/arcade/3.png'
                     )">
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
+                            <h5 class="card-title mb-2">Arcade</h5>
                             <p class="card-text mb-0">OOP fundamentals</p>
                           </div>
                           <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                            src="./Images/arcade/1.png" alt="Arcade Image">
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'Ray-tracer',
+                      'An academic project focused on object-oriented programming and clean architecture. The goal was to create 3d scenes using ray tracing.',
+                      'https://github.com/EpitechPromo2026/B-OOP-400-PAR-4-1-raytracer-cyprien.nguyen-van-vien',
+                      './Images/raytracer/1.png',
+                      './Images/raytracer/2.gif',
+                      './Images/raytracer/3.gif'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">Ray-tracer</h5>
+                            <p class="card-text mb-0">OOP fundamentals</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/raytracer/1.png" alt="Ray-tracer Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'Zappy',
+                      'Final academic project focused on object-oriented programming and clean architecture. The goal was to create a multiplayer game using sockets and ais.',
+                      'https://github.com/EpitechPromo2026/B-YEP-400-PAR-4-1-zappy-viktor.bruggeman',
+                      './Images/zappy/1.png',
+                      './Images/zappy/2.png',
+                      './Images/zappy/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">Zappy</h5>
+                            <p class="card-text mb-0">OOP fundamentals</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/zappy/1.png" alt="Zappy Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -184,27 +190,51 @@
             <div id="year3" class="accordion-collapse collapse" data-bs-parent="#allProjectsAccordion">
               <div class="accordion-body">
                 <div class="row g-4">
+
                   <div class="col-md-4">
                     <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                      'R-type',
+                      'An academic project focused on object-oriented programming and networking. The goal was to create a multiplayer game using sockets and tcp logic.',
+                      'https://github.com/EpitechPromo2026/B-CPP-500-PAR-5-2-rtype-virgile.berrier',
+                      './Images/rType/1.png',
+                      './Images/rType/2.png',
+                      './Images/rType/3.png'
                     )">
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
-                            <p class="card-text mb-0">OOP fundamentals</p>
+                            <h5 class="card-title mb-2">R-type</h5>
+                            <p class="card-text mb-0">Networking</p>
                           </div>
                           <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                            src="./Images/rType/1.png" alt="R-type Image">
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'Glados',
+                      'An academic project coded in Haskell. The goal was to create a programing language, its compiler and its interpreter.',
+                      'https://github.com/damienBC/project1',
+                      './Images/glados/1.png',
+                      './Images/glados/2.png',
+                      './Images/glados/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">Glados</h5>
+                            <p class="card-text mb-0">Haskell Project</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/glados/1.png" alt="Glados Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -222,21 +252,109 @@
                 <div class="row g-4">
                   <div class="col-md-4">
                     <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                      'Cafardo',
+                      'An academic project made in unreal engine. the goal was to make a platformer so students could learn to use the tools of unreal engine and to learn how to make a game from scratch.',
+                      'https://drindael.itch.io/cafardo-game',
+                      './Images/Cafardo/1.png',
+                      './Images/Cafardo/2.png',
+                      './Images/Cafardo/3.png'
                     )">
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
-                            <p class="card-text mb-0">OOP fundamentals</p>
+                            <h5 class="card-title mb-2">Cafardo</h5>
+                            <p class="card-text mb-0">Unreal Engine Project</p>
                           </div>
                           <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                            src="./Images/Cafardo/1.png" alt="Cafardo Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'The fps game',
+                      'An academic project made in unreal engine. The goal was to make a first person shooter game, with a focus on gameplay and level design.',
+                      'https://github.com/Drindael/The-Fps-Game',
+                      './Images/fpsgame/1.png',
+                      './Images/fpsgame/2.png',
+                      './Images/fpsgame/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">The FPS Game</h5>
+                            <p class="card-text mb-0">Unreal Engine Project</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="The FPS Game Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'WatchCats',
+                      'An academic project made in unreal engine. The goal was to make a game focused on feedbacks and cinematics.',
+                      'https://github.com/ScanSC/WatchCats',
+                      './Images/WatchCats/1.png',
+                      './Images/WatchCats/2.png',
+                      './Images/WatchCats/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">WatchCats</h5>
+                            <p class="card-text mb-0">Unreal Engine Project</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="WatchCats Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'The hateful chess',
+                      'An academic project made in unreal engine. The goal was to create a multiplayer game.',
+                      'https://github.com/HinivirBerlin/The-hateful-Chess',
+                      './Images/Chess/1.png',
+                      './Images/Chess/2.png',
+                      './Images/Chess/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">The Hateful Chess</h5>
+                            <p class="card-text mb-0">Unreal Engine Project</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="The Hateful Chess Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card h-100 clickable" onclick="openProjectModal(
+                      'Gun Seller Simulator',
+                      'An academic project made in unreal engine. The final project this year.',
+                      'https://github.com/damienBC/GunSellerSimulator',
+                      './Images/GSS/1.png',
+                      './Images/GSS/2.png',
+                      './Images/GSS/3.png'
+                    )">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <h5 class="card-title mb-2">Gun Seller Simulator</h5>
+                            <p class="card-text mb-0">Unreal Engine Project</p>
+                          </div>
+                          <img class="ms-3 project-img-square"
+                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Gun Seller Simulator Image">
                         </div>
                       </div>
                     </div>
@@ -256,27 +374,29 @@
             <div id="year5" class="accordion-collapse collapse" data-bs-parent="#allProjectsAccordion">
               <div class="accordion-body">
                 <div class="row g-4">
+
                   <div class="col-md-4">
                     <div class="card h-100 clickable" onclick="openProjectModal(
-                      'Project 1',
-                      'An academic project focused on object-oriented programming and clean architecture.',
-                      'https://github.com/damienBC/project1',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png',
-                      './Images/Projects/Academic/Year1/Project1/project1imageTmp.png'
+                      'Pitch Dark',
+                      'An academic project made in Unreal Engine 5, from the third to fifth year of school.',
+                      'https://github.com/Cocotte-Corp/PitchDark',
+                      './Images/PitchDark/1.png',
+                      './Images/PitchDark/2.png',
+                      './Images/PitchDark/3.png'
                     )">
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div>
-                            <h5 class="card-title mb-2">Project 1</h5>
-                            <p class="card-text mb-0">OOP fundamentals</p>
+                            <h5 class="card-title mb-2">Pitch Dark</h5>
+                            <p class="card-text mb-0">An academic project made in Unreal Engine 5, from the third to fifth year of school.</p>
                           </div>
                           <img class="ms-3 project-img-square"
-                            src="./Images/Projects/Academic/Year1/Project1/project1imageTmp.png" alt="Project 1 Image">
+                            src="./Images/PitchDark/1.png" alt="Pitch Dark Image">
                         </div>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -492,7 +612,7 @@
       <ul class="list-unstyled">
         <li>📧 <a href="mailto:damienbenaiscaptal@gmail.com">damienbenaiscaptal@gmail.com</a></li>
         <li>🔗 <a href="https://www.linkedin.com/in/damienbenaiscaptal" target="_blank">LinkedIn</a></li>
-        <li>📞 +33 7 81 94 43 91</li>
+        <li style="font-size: 1.1rem; color: #0041da;">📞 +33 7 81 94 43 91</li>
       </ul>
     </section>
 
@@ -615,6 +735,14 @@
 
     .accordion-body {
       background-color: rgb(245, 245, 255);
+    }
+
+    h1, h2, h3{
+      color: #fff;
+      font-weight: bold;
+    }
+    hr {
+      border-top: 3px solid #fff;
     }
   </style>
 
